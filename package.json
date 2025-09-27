@@ -1,0 +1,21 @@
+{
+  "name": "travel-agency-zerf",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run"
+  },
+  "devDependencies": {
+    "@vitest/ui": "^3.2.4",
+    "jsdom": "^27.0.0",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1",
+    "vitest": "^3.2.4"
+  }
+}
